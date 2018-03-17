@@ -2,7 +2,7 @@ package pl.pj.calc;
 
 public enum Operator {
 	// unicode \u00F7 to jest znak dzielenia.
-	DEVIDE("\u00F7"), MULTIPLY("x"), MINUS("-"), PLUS("+"), MODULO("%"), CALC("=");
+	DEVIDE("\u00F7"), MULTIPLY("x"), MINUS("-"), PLUS("+"), MODULO(" MOD "), CALC("=");
 
 	private String text;
 
